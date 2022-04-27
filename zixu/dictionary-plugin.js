@@ -63,7 +63,7 @@ var DictionaryPlugin = function (openmct) {
         openmct.composition.addProvider(compositionProvider);
 
         openmct.types.addType('example.telemetry', {
-            name: 'Example Telemetry Point',
+            name: 'Habitat HMS Telemetry Point',
             description: 'Example telemetry point from our happy tutorial.',
             cssClass: 'icon-telemetry'
         });
