@@ -1,6 +1,6 @@
 {
-    "name": "Habitat Telemetry",
-    "key": "sc",
+    "name": "Solar Sub-System",
+    "key": "sc2",
     "measurements": [
         {
             "name": "PowerRequest",
