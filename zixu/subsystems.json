@@ -1,14 +1,22 @@
 [
     {
-        "name": "Nuclear"
+        "name": "ROOT",
+        "subfolders": ["Nuclear", "Power", "ECLSS", "Structure"]
     },
     {
-        "name": "Power"
+        "name": "Nuclear",
+        "subfolders": []
     },
     {
-        "name": "ECLSS"
+        "name": "Power",
+        "subfolders": []
     },
     {
-        "name": "Structure"
+        "name": "ECLSS",
+        "subfolders": []
+    },
+    {
+        "name": "Structure",
+        "subfolders": []
     }
 ]

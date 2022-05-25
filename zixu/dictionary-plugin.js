@@ -12,22 +12,6 @@ function getSubsystems() {
         });
 }
 
-// var subsystemObjProvider = {
-//     get: function (identifier) {
-//         return getSubsystems().then(function (arr) {
-//             if (arr.map(function (m) {return m.name;}).includes(identifier.key)) {
-//                 console.log("FOUND SUBSYSTEM: " + identifier.key);
-//                 return {
-//                     identifier: identifier,
-//                     name: identifier.key,
-//                     type: 'folder',
-//                     location: 'example.taxonomy:spacecraft'
-//                 };
-//             }
-//         });
-//     }
-// }
-
 var objectProvider = {
     get: function (identifier) {
         return getSubsystems().then(function (arr) {
@@ -69,7 +53,7 @@ var objectProvider = {
     }
 };
 
-var compositionProvider = {
+var rootCompositionProvider = {
     appliesTo: function (domainObject) {
         return domainObject.identifier.key === 'spacecraft' &&
                domainObject.type === 'folder';
@@ -77,7 +61,7 @@ var compositionProvider = {
     load: function (domainObject) {
         return getSubsystems()
             .then(function (arr) {
-                return arr.map(function (m) {
+                return arr.filter(folder => arr[0].subfolders.includes(folder.name)).map(function (m) {
                     return {
                         namespace: 'example.taxonomy',
                         key: m.name
@@ -86,6 +70,26 @@ var compositionProvider = {
             });
     }
 };
+
+var folderCompositionProvider = {
+    appliesTo: function (domainObject) {
+        return domainObject.identifier.namespace === 'example.taxonomy' &&
+               domainObject.type === 'folder';
+    },
+    load: function (domainObject) {
+        return getSubsystems()
+            .then(function (arr) {
+                var thisFolder = arr.filter(folder => folder.name == domainObject.identifier.key)[0];
+                console.log(thisFolder);
+                return thisFolder.subfolders.map(function (m) {
+                    return {
+                        namespace: 'example.taxonomy',
+                        key: m.key
+                    };
+                });
+            });
+    }
+}
 
 var innerCompositionProvider = {
     appliesTo: function (domainObject) {
@@ -116,7 +120,8 @@ var DictionaryPlugin = function (openmct) {
         openmct.objects.addProvider('example.taxonomy', objectProvider);
         // openmct.objects.addProvider('example.taxonomy:spacecraft', subsystemObjProvider);
 
-        openmct.composition.addProvider(compositionProvider);
+        openmct.composition.addProvider(rootCompositionProvider);
+        //openmct.composition.addProvider(folderCompositionProvider);
         openmct.composition.addProvider(innerCompositionProvider);
 
         console.log("INSTALLING");
