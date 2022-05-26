@@ -5,130 +5,138 @@ function getDictionary() {
         });
 }
 
-function getSubsystems() {
-    return http.get('http://localhost:8080/zixu/subsystems.json')
-        .then(function (result) {
-            return result.data;
+function getSubsystemHierarchy() {
+    return getDictionary().then(function (dictionary) {
+        console.log(dictionary);
+        var subsystem = {};
+        dictionary.measurements.forEach(telem => {
+            var folders = telem.name.split('/');
+            var currfolder = subsystem;
+            for(var i = 0; i < folders.length; i++) {
+                if (currfolder[folders[i]] == null) {
+                    currfolder[folders[i]] = {};
+                }
+                currfolder = currfolder[folders[i]]
+            }
         });
+        console.log("Subsystem Hierarchy:");
+        console.log(subsystem);
+        return subsystem;
+    });
 }
 
 var objectProvider = {
     get: function (identifier) {
-        return getSubsystems().then(function (arr) {
-            return getDictionary().then(function (dictionary) {
-                if (identifier.key === 'spacecraft') {
-                    return {
-                        identifier: identifier,
-                        name: dictionary.name,
-                        type: 'folder',
-                        location: 'ROOT'
-                    };
-                } 
-                else if (arr.map(function (m) {return m.name;}).includes(identifier.key)) {
-                    console.log("FOUND SUBSYSTEM: " + identifier.key);
-                    return {
-                        identifier: identifier,
-                        name: identifier.key,
-                        type: 'folder',
-                        location: 'example.taxonomy:spacecraft'
-                    };
-                }
-                else {
-                    var measurement = dictionary.measurements.filter(function (m) {
-                        return m.key === identifier.key;
-                    })[0];
-                    var subsystem = measurement.name.split('/')[0];
-                    return {
-                        identifier: identifier,
-                        name: measurement.name,
-                        type: 'example.telemetry',
-                        telemetry: {
-                            values: measurement.values
-                        },
-                        location: 'example.taxonomy:spacecraft'
-                    };
-                }
-            });
+        return getDictionary().then(function (dictionary) {
+            if (identifier.key === 'habitat') {
+                return {
+                    identifier: identifier,
+                    name: dictionary.name,
+                    type: 'folder',
+                    location: 'ROOT'
+                };
+            } 
+            else if (isNaN(identifier.key)) {
+                console.log("FOUND SUBFOLDER: " + identifier.key);
+                var pathname = identifier.key.split('/');
+                return {
+                    identifier: identifier,
+                    name: pathname[pathname.length - 1],
+                    type: 'folder',
+                    location: 'habitat.taxonomy'
+                };
+            }
+            else {
+                var measurement = dictionary.measurements.find(entry => entry.key === identifier.key);
+                var pathname = measurement.name.split('/');
+                return {
+                    identifier: identifier,
+                    name: pathname[pathname.length - 1],
+                    type: 'habitat.telemetry',
+                    telemetry: {
+                        values: measurement.values
+                    },
+                    location: 'habitat.taxonomy'
+                };
+            }
         });
     }
 };
 
 var rootCompositionProvider = {
     appliesTo: function (domainObject) {
-        return domainObject.identifier.key === 'spacecraft' &&
+        return domainObject.identifier.key === 'habitat' &&
                domainObject.type === 'folder';
     },
     load: function (domainObject) {
-        return getSubsystems()
-            .then(function (arr) {
-                return arr.filter(folder => arr[0].subfolders.includes(folder.name)).map(function (m) {
+        return getSubsystemHierarchy().then(function (hierarchy) {
+            return getDictionary().then(function (dictionary) {
+                return Object.keys(hierarchy).map(function (subfolder) {
+                    var thisKey = subfolder;
+                    if (Object.keys(hierarchy[subfolder]).length == 0) {
+                        thisKey = dictionary.measurements.find(element => element.name == subfolder).key;
+                    }
                     return {
-                        namespace: 'example.taxonomy',
-                        key: m.name
+                        namespace: 'habitat.taxonomy',
+                        key: thisKey
                     };
                 })
             });
+        });
     }
 };
 
 var folderCompositionProvider = {
     appliesTo: function (domainObject) {
-        return domainObject.identifier.namespace === 'example.taxonomy' &&
+        return domainObject.identifier.key != 'habitat' &&
+               domainObject.identifier.namespace === 'habitat.taxonomy' &&
                domainObject.type === 'folder';
     },
     load: function (domainObject) {
-        return getSubsystems()
-            .then(function (arr) {
-                var thisFolder = arr.filter(folder => folder.name == domainObject.identifier.key)[0];
+        return getSubsystemHierarchy().then(function (hierarchy) {
+            return getDictionary().then(function (dictionary) {
+                var parentFolders = domainObject.identifier.key.split('/');
+                var thisFolder = hierarchy;
+                for(var i = 0; i < parentFolders.length; i++) {
+                    thisFolder = thisFolder[parentFolders[i]]
+                }
                 console.log(thisFolder);
-                return thisFolder.subfolders.map(function (m) {
+                return Object.keys(thisFolder).map(function (subfolder) {
+                    var thisKey = domainObject.identifier.key + '/' + subfolder;
+                    if (Object.keys(thisFolder[subfolder]).length == 0) {
+                        thisKey = dictionary.measurements.find(element => element.name == domainObject.identifier.key + '/' + subfolder).key;
+                    }
                     return {
-                        namespace: 'example.taxonomy',
-                        key: m.key
+                        namespace: 'habitat.taxonomy',
+                        key: thisKey
                     };
                 });
             });
+        });
     }
 }
-
-var innerCompositionProvider = {
-    appliesTo: function (domainObject) {
-        return domainObject.identifier.key != 'spacecraft' &&
-               domainObject.identifier.namespace === 'example.taxonomy' &&
-               domainObject.type === 'folder';
-    },
-    load: function (domainObject) {
-        return getDictionary()
-            .then(function (dictionary) {
-                return dictionary.measurements.filter(element => element.name.startsWith(domainObject.identifier.key)).map(function (m) {
-                    return {
-                        namespace: 'example.taxonomy',
-                        key: m.key
-                    };
-                });
-            });
-    }
-};
 
 var DictionaryPlugin = function (openmct) {
     return function install(openmct) {
         openmct.objects.addRoot({
-            namespace: 'example.taxonomy',
-            key: 'spacecraft'
+            namespace: 'habitat.taxonomy',
+            key: 'habitat'
         });
 
-        openmct.objects.addProvider('example.taxonomy', objectProvider);
-        // openmct.objects.addProvider('example.taxonomy:spacecraft', subsystemObjProvider);
+        getSubsystemHierarchy().then(function (hier) {
+            console.log("GETTING HIERARCHY");
+        });
+
+        openmct.objects.addProvider('habitat.taxonomy', objectProvider);
 
         openmct.composition.addProvider(rootCompositionProvider);
-        //openmct.composition.addProvider(folderCompositionProvider);
-        openmct.composition.addProvider(innerCompositionProvider);
+        openmct.composition.addProvider(folderCompositionProvider);
 
         console.log("INSTALLING");
 
-        openmct.types.addType('example.telemetry', {
-            name: 'Example Telemetry Point',
-            description: 'Example telemetry point from our happy tutorial.',
+        openmct.types.addType('habitat.telemetry', {
+            name: 'Habitat Telemetry Point',
+            description: 'Telemetry point for some habitat object.',
             cssClass: 'icon-telemetry'
         });
     };
