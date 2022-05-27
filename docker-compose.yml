@@ -119,9 +119,12 @@ services:
       - hms-network
 
   visualization:
-    image: hfbzzx/rethi-visualization
+    image: ctolbert555/rethi-hms-vis
     ports:
       - "8080:8080"
+  # image: ctolbert555/rethi-hms-vis
+  # image: hfbzzx/rethi-visualization
+
 
   # rethi-c2:
   #   # image: rethi-c2
