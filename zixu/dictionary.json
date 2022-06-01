@@ -3,32 +3,6 @@
     "key": "sc",
     "measurements": [
         {
-            "name": "PowerRequest",
-            "key": "5063.0",
-            "values": [
-                {
-                    "key": "value",
-                    "name": "Value",
-                    "units": "kilograms",
-                    "format": "float",
-                    "min": 0,
-                    "max": 1000,
-                    "hints": {
-                        "range": 1
-                    }
-                },
-                {
-                    "key": "utc",
-                    "source": "timestamp",
-                    "name": "Timestamp",
-                    "format": "utc",
-                    "hints": {
-                        "domain": 1
-                    }
-                }
-            ]
-        },
-        {
             "name": "PaintHealth_0",
             "key": "5001.0",
             "values": [
@@ -3045,7 +3019,7 @@
             ]
         },
         {
-            "name": "Structure_Mechanical/Accelerometer_3.1",
+            "name": "Structure_Mechanical/Accelerometer_3.1.1",
             "key": "2011.0",
             "values": [
                 {
@@ -3071,8 +3045,112 @@
             ]
         },
         {
-            "name": "Structure_Mechanical/Accelerometer_3.2",
+            "name": "Structure_Mechanical/Accelerometer_3.1.2",
+            "key": "2011.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_3.1.3",
+            "key": "2011.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_3.2.1",
             "key": "2012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_3.2.2",
+            "key": "2012.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_3.2.3",
+            "key": "2012.2",
             "values": [
                 {
                     "key": "value",
@@ -3333,6 +3411,2398 @@
         {
             "name": "Structure_Mechanical/Accelerometer_4.4",
             "key": "2018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.1.1",
+            "key": "2019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.1.2",
+            "key": "2019.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.1.3",
+            "key": "2019.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.2.1",
+            "key": "2020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.2.2",
+            "key": "2020.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.2.3",
+            "key": "2020.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.3",
+            "key": "2021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Mechanical/Accelerometer_5.4",
+            "key": "2022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Protective_Layer_1",
+            "key": "11002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Protective_Layer_2",
+            "key": "11002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Protective_Layer_3",
+            "key": "11002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Protective_Layer_4",
+            "key": "11002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure_Protective_Layer_5",
+            "key": "11002.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Power_Request",
+            "key": "8011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone1_1",
+            "key": "8001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone1_2",
+            "key": "8001.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone1_3",
+            "key": "8001.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone1_4",
+            "key": "8001.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone1_5",
+            "key": "8001.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone2_1",
+            "key": "8002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone2_2",
+            "key": "8002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone2_3",
+            "key": "8002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone2_4",
+            "key": "8002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment_Zone2_5",
+            "key": "8002.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Temperature_1",
+            "key": "8003.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Temperature_2",
+            "key": "8004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Temperature_3",
+            "key": "8005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Temperature_4",
+            "key": "8006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Pressure_1",
+            "key": "8007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Pressure_2",
+            "key": "8008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Pressure_3",
+            "key": "8009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Pressure_4",
+            "key": "8010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Total_Power_Storage",
+            "key": "3058.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays_1",
+            "key": "3001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays_2.1",
+            "key": "3002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays_2.2",
+            "key": "3002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays_2.3",
+            "key": "3002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays_2.4",
+            "key": "3002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Radiator_Panels_1",
+            "key": "3004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Radiator_Panels_2",
+            "key": "3005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Battery_cells",
+            "key": "3006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_1",
+            "key": "3007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_2",
+            "key": "3008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_3",
+            "key": "3009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_4",
+            "key": "3010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_5",
+            "key": "3011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_6",
+            "key": "3012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/G_bus",
+            "key": "3013.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_1_1",
+            "key": "3014.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_1_2",
+            "key": "3015.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_1_3",
+            "key": "3016.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_1_4",
+            "key": "3017.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_2_1",
+            "key": "3018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_2_2",
+            "key": "3019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_2_3",
+            "key": "3020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_2_4",
+            "key": "3021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_3_1",
+            "key": "3022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_3_2",
+            "key": "3023.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_3_3",
+            "key": "3024.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_3_4",
+            "key": "3025.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_4_1",
+            "key": "3026.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_4_2",
+            "key": "3027.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_4_3",
+            "key": "3028.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_4_4",
+            "key": "3029.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_5_1",
+            "key": "3030.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_5_2",
+            "key": "3031.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_5_3",
+            "key": "3032.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temp_5_4",
+            "key": "3033.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Meter_1_1",
+            "key": "3034.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Meter_1_2",
+            "key": "3035.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Meter_1_3",
+            "key": "3036.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Meter_1_4",
+            "key": "3037.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Charge_Reader_1_1",
+            "key": "3038.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Charge_Reader_1_2",
+            "key": "3039.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Charge_Reader_1_3",
+            "key": "3040.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Charge_Reader_1_4",
+            "key": "3041.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Current_Sensor_1_1",
+            "key": "3042.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Current_Sensor_1_2",
+            "key": "3043.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Current_Sensor_1_3",
+            "key": "3044.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Current_Sensor_1_4",
+            "key": "3045.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/Power_Meter_1_1",
+            "key": "3046.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/Power_Meter_1_2",
+            "key": "3047.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/Power_Meter_1_3",
+            "key": "3048.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/Power_Meter_1_4",
+            "key": "3049.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Power_Meter_1_1",
+            "key": "3050.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Power_Meter_1_2",
+            "key": "3051.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Power_Meter_1_3",
+            "key": "3052.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Power_Meter_1_4",
+            "key": "3053.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Temp_1_1",
+            "key": "3054.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Temp_1_2",
+            "key": "3055.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Temp_1_3",
+            "key": "3056.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Power_Storage/Temp_1_4",
+            "key": "3057.0",
             "values": [
                 {
                     "key": "value",
