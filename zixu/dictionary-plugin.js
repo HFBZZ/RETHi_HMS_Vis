@@ -118,7 +118,7 @@ var rootCompositionProvider = {
                         thisKey = dictionary.measurements.find(element => element.name == subfolder).key;
                     }
                     return {
-                        namespace: 'habitat.taxonomy',
+                        namespace: 'example.taxonomy',
                         key: thisKey
                     };
                 })
@@ -134,7 +134,7 @@ var folderCompositionProvider = {
     // Applies to any folder besides the habitat folder in ROOT
     appliesTo: function (domainObject) {
         return domainObject.identifier.key != 'habitat' &&
-               domainObject.identifier.namespace === 'habitat.taxonomy' &&
+               domainObject.identifier.namespace === 'example.taxonomy' &&
                domainObject.type === 'folder';
     },
     // Specifies all folders and telemetry points to put inside the each non-habitat folder
@@ -156,7 +156,7 @@ var folderCompositionProvider = {
                         thisKey = dictionary.measurements.find(element => element.name == domainObject.identifier.key + '/' + subfolder).key;
                     }
                     return {
-                        namespace: 'habitat.taxonomy',
+                        namespace: 'example.taxonomy',
                         key: thisKey
                     };
                 });
@@ -172,21 +172,20 @@ var DictionaryPlugin = function (openmct) {
     return function install(openmct) {
         // Creates the habitat folder in the root directory
         openmct.objects.addRoot({
-            namespace: 'habitat.taxonomy',
+            namespace: 'example.taxonomy',
             key: 'habitat'
         });
 
         // Specifies the objects
-        openmct.objects.addProvider('habitat.taxonomy', objectProvider);
+        openmct.objects.addProvider('example.taxonomy', objectProvider);
 
         // Specifies the composition of the objects in the file tree
         openmct.composition.addProvider(rootCompositionProvider);
         openmct.composition.addProvider(folderCompositionProvider);
 
-        // Creates a custom habitat telemetry point
-        openmct.types.addType('habitat.telemetry', {
-            name: 'Habitat Telemetry Point',
-            description: 'Telemetry point for some habitat object.',
+        openmct.types.addType('example.telemetry', {
+            name: 'Habitat HMS Telemetry Point',
+            description: 'Example telemetry point from our happy tutorial.',
             cssClass: 'icon-telemetry'
         });
     };

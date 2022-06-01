@@ -13,7 +13,7 @@ function HistoricalTelemetryPlugin() {
                     + domainObject.identifier.key
                     + '?start=' + options.start 
                     + '&end=' + options.end;
-                //console.log(url, options, domainObject.identifier.key)
+                console.log(url, options, domainObject.identifier.key)
                 return http.get(url)
                     .then(function (resp) {
                         // console.log(resp)
