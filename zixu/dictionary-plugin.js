@@ -74,7 +74,7 @@ var objectProvider = {
                     identifier: identifier,
                     name: pathname[pathname.length - 1],
                     type: 'folder',
-                    location: 'habitat.taxonomy'
+                    location: 'example.taxonomy'
                 };
             }
             // Specifies all telemetry
@@ -85,11 +85,11 @@ var objectProvider = {
                 return {
                     identifier: identifier,
                     name: pathname[pathname.length - 1],
-                    type: 'habitat.telemetry',
+                    type: 'example.telemetry',
                     telemetry: {
                         values: measurement.values
                     },
-                    location: 'habitat.taxonomy'
+                    location: 'example.taxonomy'
                 };
             }
         });
