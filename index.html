@@ -207,6 +207,9 @@
             {indicator: true}
         ));
         openmct.install(openmct.plugins.Clock({ enableClockIndicator: true }));
+
+        openmct.install(openmct.plugins.Button());
+        
         openmct.install(openmct.plugins.Timer());
         openmct.install(openmct.plugins.Timelist());
         openmct.start();

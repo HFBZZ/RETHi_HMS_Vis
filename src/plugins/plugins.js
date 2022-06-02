@@ -72,6 +72,7 @@ define([
     './timeline/plugin',
     './hyperlink/plugin',
     './clock/plugin',
+    './_BUTTON_PLUGIN/plugin',
     './DeviceClassifier/plugin',
     './timer/plugin',
     './userIndicator/plugin',
@@ -130,6 +131,7 @@ define([
     Timeline,
     Hyperlink,
     Clock,
+    Button,
     DeviceClassifier,
     Timer,
     UserIndicator,
@@ -208,6 +210,9 @@ define([
     plugins.Timeline = Timeline.default;
     plugins.Hyperlink = Hyperlink.default;
     plugins.Clock = Clock.default;
+
+    plugins.Button = Button.default;
+
     plugins.Timer = Timer.default;
     plugins.DeviceClassifier = DeviceClassifier.default;
     plugins.UserIndicator = UserIndicator.default;
