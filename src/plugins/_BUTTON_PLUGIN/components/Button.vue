@@ -1,9 +1,17 @@
 <script>
+import SendMessage from '../../_MESSAGE_SENDER/MessageSender'
+
 export default {
   data() {
     return {
       msg: '',
       saved_msg: ''
+    }
+  },
+  methods: {
+    send(msg) {
+      this.saved_msg = msg
+      SendMessage(msg, "Thermal Set Point")
     }
   }
 }
@@ -12,7 +20,7 @@ export default {
 <template>
   <div class="my_button">
     <input v-model="msg" placeholder="edit me" />
-    <button @click="saved_msg=msg">Send</button>
+    <button @click="send(msg)">Send</button>
     <p>{{ saved_msg }}</p>
   </div>
 </template>

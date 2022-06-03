@@ -1,5 +1,3 @@
-import ButtonViewProvider from './ButtonViewProvider';
-
 import Button from './components/Button.vue';
 import Vue from 'vue';
 
