@@ -1,21 +1,21 @@
-import Button from './components/Button.vue';
+import Switch from './components/Switch.vue';
 import Vue from 'vue';
 
 export default function ButtonPlugin(options) {
     return function install(openmct) {
-        openmct.types.addType('testButton', {
-            name: 'Telemetry Control Button',
-            description: 'A field and a button to update some value in the database',
+        openmct.types.addType('telemSwitch', {
+            name: 'Telemetry Control Switch',
+            description: 'A switch to toggle some value in the database',
             creatable: true,
             cssClass: "icon-minus",
             initialize: function (domainObject) {
-                domainObject.label = 'Custom Button';
+                domainObject.label = 'Custom Switch';
                 domainObject.target = 'thermal_set_point';
             },
             form: [
                 {
-                    "key": "btn_txt",
-                    "name": "Button Text",
+                    "key": "swtch_txt",
+                    "name": "Switch Text",
                     "control": "textfield",
                     property: [
                         'label'
@@ -34,21 +34,19 @@ export default function ButtonPlugin(options) {
             ]
         });
 
-        // openmct.objectViews.addProvider(new ButtonViewProvider(openmct));
-
         openmct.objectViews.addProvider({
             name: "demo-provider",
-            key: "test-button",
+            key: "test-switch",
             cssClass: "icon-packet",
             canView: function (d) {
-                return d.type === 'testButton';
+                return d.type === 'telemSwitch';
             },
             view: function (domainObject) {
                 var vm;
 
                 return {
                     show: function (container) {
-                        vm = new Vue(Button);
+                        vm = new Vue(Switch);
                         vm.$data.internalDomainObj = domainObject;
                         container.appendChild(vm.$mount().$el);
                     },

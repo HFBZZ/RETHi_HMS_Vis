@@ -4,23 +4,21 @@ import SendMessage from '../../_MESSAGE_SENDER/MessageSender'
 export default {
   data() {
     return {
+      internalDomainObj: undefined,
       msg: '',
-      saved_msg: ''
     }
   },
   methods: {
     send(msg) {
-      this.saved_msg = msg
-      SendMessage(msg, "Thermal Set Point")
+      SendMessage(msg, this.internalDomainObj.target)
     }
   }
 }
 </script>
 
 <template>
-  <div class="my_button">
-    <input v-model="msg" placeholder="edit me" />
-    <button @click="send(msg)">Send</button>
-    <p>{{ saved_msg }}</p>
+  <div>
+    <input class="numerical_input_field" v-model="msg" placeholder="00" />
+    <button class="button button_hover" @click="send(msg)">{{ internalDomainObj.label }}</button>
   </div>
 </template>

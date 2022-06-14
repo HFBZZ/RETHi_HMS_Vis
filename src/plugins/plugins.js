@@ -73,6 +73,7 @@ define([
     './hyperlink/plugin',
     './clock/plugin',
     './_BUTTON_PLUGIN/plugin',
+    './_SWITCH_PLUGIN/plugin',
     './DeviceClassifier/plugin',
     './timer/plugin',
     './userIndicator/plugin',
@@ -132,6 +133,7 @@ define([
     Hyperlink,
     Clock,
     Button,
+    Switch,
     DeviceClassifier,
     Timer,
     UserIndicator,
@@ -212,6 +214,7 @@ define([
     plugins.Clock = Clock.default;
 
     plugins.Button = Button.default;
+    plugins.Switch = Switch.default;
 
     plugins.Timer = Timer.default;
     plugins.DeviceClassifier = DeviceClassifier.default;

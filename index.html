@@ -26,6 +26,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <title></title>
+        <link rel="stylesheet" href="zixu/button_styles.css">
         <script src="dist/openmct.js"></script>
         <script src="zixu/dictionary-plugin.js"></script>
         <!-- <script src="zixu/SolarSubSystem-DicPlg.js"></script> -->
@@ -209,6 +210,7 @@
         openmct.install(openmct.plugins.Clock({ enableClockIndicator: true }));
 
         openmct.install(openmct.plugins.Button());
+        openmct.install(openmct.plugins.Switch());
         
         openmct.install(openmct.plugins.Timer());
         openmct.install(openmct.plugins.Timelist());
