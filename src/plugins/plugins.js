@@ -74,6 +74,7 @@ define([
     './clock/plugin',
     './_BUTTON_PLUGIN/plugin',
     './_SWITCH_PLUGIN/plugin',
+    './_EARTH_MARS_DELAY/plugin',
     './DeviceClassifier/plugin',
     './timer/plugin',
     './userIndicator/plugin',
@@ -134,6 +135,7 @@ define([
     Clock,
     Button,
     Switch,
+    DelayTracker,
     DeviceClassifier,
     Timer,
     UserIndicator,
@@ -215,6 +217,7 @@ define([
 
     plugins.Button = Button.default;
     plugins.Switch = Switch.default;
+    plugins.DelayTracker = DelayTracker.default;
 
     plugins.Timer = Timer.default;
     plugins.DeviceClassifier = DeviceClassifier.default;

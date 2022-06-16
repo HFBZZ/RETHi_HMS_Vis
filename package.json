@@ -123,5 +123,8 @@
   ],
   "author": "",
   "license": "Apache-2.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
