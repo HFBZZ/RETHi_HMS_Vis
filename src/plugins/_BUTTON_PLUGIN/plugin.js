@@ -11,6 +11,7 @@ export default function ButtonPlugin(options) {
             initialize: function (domainObject) {
                 domainObject.label = 'Custom Button';
                 domainObject.target = 'thermal_set_point';
+                domainObject.inputWidth = '40';
             },
             form: [
                 {
@@ -31,6 +32,15 @@ export default function ButtonPlugin(options) {
                     ],
                     "cssClass": "l-input-lg"
                 },
+                {
+                    "key": "input_width",
+                    "name": "Input Width",
+                    "control": "textfield",
+                    property: [
+                        'inputWidth'
+                    ],
+                    "cssClass": "l-input-sm"
+                },
             ]
         });
 
@@ -45,6 +55,7 @@ export default function ButtonPlugin(options) {
             },
             view: function (domainObject) {
                 var vm;
+                document.documentElement.style.setProperty('--input-field-width', domainObject.inputWidth);
 
                 return {
                     show: function (container) {

@@ -12,6 +12,7 @@ export default function DelayTracker(options) {
                 domainObject.date = "1/1/2021";
                 domainObject.dateType = "current";
                 domainObject.format = "m,s";
+                domainObject.showSys = false;
             },
             form: [
                 {
@@ -62,6 +63,25 @@ export default function DelayTracker(options) {
                     ],
                     property: [
                         'format'
+                    ],
+                    cssClass: 'l-inline',
+                },
+                {
+                    "key": "showSystem",
+                    "name": "Show Earth-Sun-Mars System",
+                    control: 'select',
+                    options: [
+                        {
+                            name: 'Show System',
+                            value: true
+                        },
+                        {
+                            name: 'Hide System',
+                            value: false
+                        }
+                    ],
+                    property: [
+                        'showSys'
                     ],
                     cssClass: 'l-inline',
                 },
