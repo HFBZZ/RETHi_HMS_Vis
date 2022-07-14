@@ -2,8 +2,8 @@ import axios from 'axios';
 import EmailNotification from './EmailNotifiier';
 
 const data_id_dict = {
-    "thermal_set_point": "6011",
-    "pressure_set_point": "6012",
+    "temperature_set_point": "10001",
+    "pressure_set_point": "10002",
 };
 
 export default function SendMessage(msg, field_to_modify) {

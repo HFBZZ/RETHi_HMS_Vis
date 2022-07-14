@@ -1,28 +1,19 @@
-import Button from './components/Button.vue';
+import Button from './components/Thermostat.vue';
 import Vue from 'vue';
 
-export default function ButtonPlugin(options) {
+export default function ThermostatPlugin(options) {
     return function install(openmct) {
-        openmct.types.addType('testButton', {
-            name: 'Telemetry Control Button',
-            description: 'A field and a button to update some value in the database',
+        openmct.types.addType('thermostat', {
+            name: 'Thermostat Controller',
+            description: 'A mechanism for controlling temperature',
             creatable: true,
             cssClass: "icon-minus",
             initialize: function (domainObject) {
-                domainObject.label = 'Custom Button';
+                domainObject.label = 'Thermostat';
                 domainObject.target = 'temperature_set_point';
-                domainObject.inputWidth = '40';
+                domainObject.setpoint = 0;
             },
             form: [
-                {
-                    "key": "btn_txt",
-                    "name": "Button Text",
-                    "control": "textfield",
-                    property: [
-                        'label'
-                    ],
-                    "cssClass": "l-input-lg"
-                },
                 {
                     "key": "target",
                     "name": "Target Telemetry",
@@ -32,30 +23,18 @@ export default function ButtonPlugin(options) {
                     ],
                     "cssClass": "l-input-lg"
                 },
-                {
-                    "key": "input_width",
-                    "name": "Input Width",
-                    "control": "textfield",
-                    property: [
-                        'inputWidth'
-                    ],
-                    "cssClass": "l-input-sm"
-                },
             ]
         });
 
-        // openmct.objectViews.addProvider(new ButtonViewProvider(openmct));
-
         openmct.objectViews.addProvider({
             name: "demo-provider",
-            key: "test-button",
+            key: "thermostat",
             cssClass: "icon-packet",
             canView: function (d) {
-                return d.type === 'testButton';
+                return d.type === 'thermostat';
             },
             view: function (domainObject) {
                 var vm;
-                document.documentElement.style.setProperty('--input-field-width', domainObject.inputWidth);
 
                 return {
                     show: function (container) {

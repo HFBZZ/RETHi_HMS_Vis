@@ -1,0 +1,5596 @@
+{
+    "name": "Habitat Telemetry",
+    "key": "sc",
+    "measurements": [
+        {
+            "name": "ECLSS/ECLSS_Exterior/Radiator_Panels_Paint/PaintHealth.0",
+            "key": "5001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Exterior/Radiator_Panels_Paint/PaintHealth.1",
+            "key": "5001.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Exterior/Radiator_Panels_Dust/DustHealth.0",
+            "key": "5002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Exterior/Radiator_Panels_Dust/DustHealth.1",
+            "key": "5002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Fan/FanStall.0",
+            "key": "5003.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Fan/FanStall.1",
+            "key": "5003.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Air_Tank/AirTankLeak.0",
+            "key": "5004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Air_Tank/AirTankLeak.1",
+            "key": "5004.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Air_Tank/AirTankLeak.2",
+            "key": "5004.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Air_Tank/AirTankLeak.3",
+            "key": "5004.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Air_Tank/AirTankLeak.4",
+            "key": "5004.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Supply_Valve/ValveMalfunction.0",
+            "key": "5005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Supply_Valve/ValveMalfunction.1",
+            "key": "5005.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Supply_Valve/ValveMalfunction.2",
+            "key": "5005.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Supply_Valve/ValveMalfunction.3",
+            "key": "5005.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Supply_Valve/ValveMalfunction.4",
+            "key": "5005.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Power_Consumption/HighPowerConsumptionPress.0",
+            "key": "5006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Power_Consumption/HighPowerConsumptionPress.1",
+            "key": "5006.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Power_Consumption/HighPowerConsumptionPress.2",
+            "key": "5006.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Power_Consumption/HighPowerConsumptionPress.3",
+            "key": "5006.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Pressure/Power_Consumption/HighPowerConsumptionPress.4",
+            "key": "5006.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Compressor/CompressorDegrad.0",
+            "key": "5007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Compressor/CompressorDegrad.1",
+            "key": "5007.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Compressor/CompressorDegrad.2",
+            "key": "5007.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Compressor/CompressorDegrad.3",
+            "key": "5007.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Compressor/CompressorDegrad.4",
+            "key": "5007.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Evaporator/EvapLeak.0",
+            "key": "5008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Evaporator/EvapLeak.1",
+            "key": "5008.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Evaporator/EvapLeak.2",
+            "key": "5008.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Evaporator/EvapLeak.3",
+            "key": "5008.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Evaporator/EvapLeak.4",
+            "key": "5008.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Heater/HeaterDegrad.0",
+            "key": "5009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Heater/HeaterDegrad.1",
+            "key": "5009.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Heater/HeaterDegrad.2",
+            "key": "5009.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Heater/HeaterDegrad.3",
+            "key": "5009.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Heater/HeaterDegrad.4",
+            "key": "5009.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Power_Consumption/HighPowerConsumptionTherm.0",
+            "key": "5010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Power_Consumption/HighPowerConsumptionTherm.1",
+            "key": "5010.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Power_Consumption/HighPowerConsumptionTherm.2",
+            "key": "5010.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Power_Consumption/HighPowerConsumptionTherm.3",
+            "key": "5010.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/ECLSS_Thermal/Power_Consumption/HighPowerConsumptionTherm.4",
+            "key": "5010.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_1",
+            "key": "5011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_1_xd",
+            "key": "5012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_1_xh",
+            "key": "5013.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_1_00",
+            "key": "5014.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_2",
+            "key": "5015.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_2_xd",
+            "key": "5016.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_2_xh",
+            "key": "5017.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_2_00",
+            "key": "5018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_3",
+            "key": "5019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_3_xd",
+            "key": "5020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_3_xh",
+            "key": "5021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_3_00",
+            "key": "5022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_4",
+            "key": "5023.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_4_xd",
+            "key": "5024.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_4_xh",
+            "key": "5025.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_4_00",
+            "key": "5026.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_5",
+            "key": "5027.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_5_xd",
+            "key": "5028.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_5_xh",
+            "key": "5029.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_5_00",
+            "key": "5030.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_6",
+            "key": "5031.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_6_xd",
+            "key": "5032.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_6_xh",
+            "key": "5033.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/SurfTemperature_Sensor_6_00",
+            "key": "5034.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_1",
+            "key": "5035.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_1_xd",
+            "key": "5036.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_1_xh",
+            "key": "5037.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_1_00",
+            "key": "5038.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_2",
+            "key": "5039.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_2_xd",
+            "key": "5040.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_2_xh",
+            "key": "5041.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_2_00",
+            "key": "5042.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_3",
+            "key": "5043.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_3_xd",
+            "key": "5044.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_3_xh",
+            "key": "5045.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_3_00",
+            "key": "5046.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_4",
+            "key": "5047.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_4_xd",
+            "key": "5048.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_4_xh",
+            "key": "5049.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_4_00",
+            "key": "5050.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_5",
+            "key": "5051.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_5_xd",
+            "key": "5052.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_5_xh",
+            "key": "5053.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_5_00",
+            "key": "5054.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_6",
+            "key": "5055.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_6_xd",
+            "key": "5056.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_6_xh",
+            "key": "5057.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Radiator_Panel/FluidTemperature_Sensor_6_00",
+            "key": "5058.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Flow_Meter",
+            "key": "5059.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Flow_Meter_xd",
+            "key": "5060.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Flow_Meter_xh",
+            "key": "5061.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/Flow_Meter_00",
+            "key": "5062.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/EvaporatorTemperature",
+            "key": "5063.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/EvaporatorTemperature_xd",
+            "key": "5064.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/EvaporatorTemperature_xh",
+            "key": "5065.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS/Sensor/EvaporatorTemperature_00",
+            "key": "5066.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.0",
+            "key": "2001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.1",
+            "key": "2001.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.2",
+            "key": "2001.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.3",
+            "key": "2001.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.4",
+            "key": "2001.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/FDD_Simu.5",
+            "key": "2001.5",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Physics_Based_FDD.0",
+            "key": "2023.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Physics_Based_FDD.1",
+            "key": "2023.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1.x",
+            "key": "2003.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1.y",
+            "key": "2003.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1.z",
+            "key": "2003.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1_xd.0",
+            "key": "2004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1_xd.1",
+            "key": "2004.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1_xd.2",
+            "key": "2004.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1_xh",
+            "key": "2005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_1_00",
+            "key": "2006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2.x",
+            "key": "2007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2.y",
+            "key": "2007.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2.z",
+            "key": "2007.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2_xd.0",
+            "key": "2008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2_xd.1",
+            "key": "2008.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2_xd.2",
+            "key": "2008.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2_xh",
+            "key": "2009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_2_00",
+            "key": "2010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3.x",
+            "key": "2011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3.y",
+            "key": "2011.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3.z",
+            "key": "2011.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3_xd.0",
+            "key": "2012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3_xd.1",
+            "key": "2012.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3_xd.2",
+            "key": "2012.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3_xh",
+            "key": "2013.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_3_00",
+            "key": "2014.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4.x",
+            "key": "2015.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4.y",
+            "key": "2015.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4.z",
+            "key": "2015.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4_xd.0",
+            "key": "2016.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4_xd.1",
+            "key": "2016.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4_xd.2",
+            "key": "2016.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4_xh",
+            "key": "2017.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_4_00",
+            "key": "2018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5.x",
+            "key": "2019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5.y",
+            "key": "2019.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5.z",
+            "key": "2019.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5_xd.0",
+            "key": "2020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5_xd.1",
+            "key": "2020.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5_xd.2",
+            "key": "2020.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5_xh",
+            "key": "2021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Structure/Structure_Mechanical/Accelerometer_5_00",
+            "key": "2022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL/Structure_Protective_Layer/FDD.0",
+            "key": "11002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL/Structure_Protective_Layer/FDD.1",
+            "key": "11002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL/Structure_Protective_Layer/FDD.2",
+            "key": "11002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL/Structure_Protective_Layer/FDD.3",
+            "key": "11002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL/Structure_Protective_Layer/FDD.4",
+            "key": "11002.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_1/FireZ1_simu_FDD.0",
+            "key": "8001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_1/FireZ1_simu_FDD.1",
+            "key": "8001.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_1/FireZ1_simu_FDD.2",
+            "key": "8001.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_1/FireZ1_simu_FDD.3",
+            "key": "8001.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_1/FireZ1_simu_FDD.4",
+            "key": "8001.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_2/FireZ2_simu_FDD.0",
+            "key": "8002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_2/FireZ2_simu_FDD.1",
+            "key": "8002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_2/FireZ2_simu_FDD.2",
+            "key": "8002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_2/FireZ2_simu_FDD.3",
+            "key": "8002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Fire/Interior_Environment_Zone_2/FireZ2_simu_FDD.4",
+            "key": "8002.4",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_1",
+            "key": "8003.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_1_xd",
+            "key": "8004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_1_xh",
+            "key": "8005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_1_00",
+            "key": "8006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_1",
+            "key": "8007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_1_xd",
+            "key": "8008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_1_xh",
+            "key": "8009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_1_00",
+            "key": "8010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_2",
+            "key": "8011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_2_xd",
+            "key": "8012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Temperature_Zone_2_xh",
+            "key": "8013.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_2",
+            "key": "8014.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_2_xd",
+            "key": "8015.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Air_Pressure_Zone_2_xh",
+            "key": "8016.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_1",
+            "key": "8017.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_1_xd",
+            "key": "8018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_1_xh",
+            "key": "8019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_2",
+            "key": "8020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_2_xd",
+            "key": "8021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Interior_Environment/Smoke_Detector_Zone_2_xh",
+            "key": "8022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays/00",
+            "key": "3001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays/Dust.0",
+            "key": "3002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays/Dust.1",
+            "key": "3002.1",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays/Dust.2",
+            "key": "3002.2",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar_PV/PV_Arrays/Dust.3",
+            "key": "3002.3",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Radiator_Panels/NuclearDust",
+            "key": "3004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Radiator_Panels/NuclearDust_Duplicate",
+            "key": "3005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Radiator_Panels/NuclearBrokenGenerator",
+            "key": "3006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_1",
+            "key": "3007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_2",
+            "key": "3008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_3",
+            "key": "3009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_4",
+            "key": "3010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_5",
+            "key": "3011.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Converter_6",
+            "key": "3012.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/SPD/Global_Bus",
+            "key": "3013.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/General_Consumption",
+            "key": "3014.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/General_Consumption_xd",
+            "key": "3015.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/General_Consumption_xh",
+            "key": "3016.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Stored_Energy",
+            "key": "3017.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Stored_Energy_xd",
+            "key": "3018.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Stored_Energy_xh",
+            "key": "3019.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Generated",
+            "key": "3020.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Generated_xd",
+            "key": "3021.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Power_Generated_xh",
+            "key": "3022.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temperature",
+            "key": "3023.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temperature_xd",
+            "key": "3024.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Nuclear_Generator/Temperature_xh",
+            "key": "3025.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar/Power_Generated",
+            "key": "3026.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar/Power_Generated_xd",
+            "key": "3027.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Solar/Power_Generated_xh",
+            "key": "3028.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Battery_Temperature",
+            "key": "3029.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Battery_Temperature_xd",
+            "key": "3030.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Power/Energy_Storage/Battery_Temperature_xh",
+            "key": "3031.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Communication_Network/Thermostats/Temperature_Set_Point",
+            "key": "10001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Communication_Network/Thermostats/Pressure_Set_Point",
+            "key": "10002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

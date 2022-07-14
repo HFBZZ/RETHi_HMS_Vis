@@ -75,6 +75,7 @@ define([
     './_BUTTON_PLUGIN/plugin',
     './_SWITCH_PLUGIN/plugin',
     './_EARTH_MARS_DELAY/plugin',
+    './_THERMOSTAT_PLUGIN/plugin',
     './DeviceClassifier/plugin',
     './timer/plugin',
     './userIndicator/plugin',
@@ -136,6 +137,7 @@ define([
     Button,
     Switch,
     DelayTracker,
+    Thermostat,
     DeviceClassifier,
     Timer,
     UserIndicator,
@@ -218,6 +220,7 @@ define([
     plugins.Button = Button.default;
     plugins.Switch = Switch.default;
     plugins.DelayTracker = DelayTracker.default;
+    plugins.Thermostat = Thermostat.default;
 
     plugins.Timer = Timer.default;
     plugins.DeviceClassifier = DeviceClassifier.default;
