@@ -22,7 +22,7 @@ export default {
         this.set_point -=0.5
         this.is_editing = true
     }
-  }
+  },
 }
 </script>
 
@@ -31,8 +31,7 @@ export default {
     <h1 class="temp">22</h1>
     <div class="offset">
         <button class="arrow" @click="increment()">▲</button>
-        <p class="center" v-if="is_editing">{{ set_point }}</p>
-        <p class="center" v-else>{{ internalDomainObj.setpoint }}</p>
+        <p class="center">{{ set_point }}</p>
         <button class="down arrow" @click="decrement()">▼</button>
         <div>
             <button class="ok" @click="send(set_point)">OK</button>
