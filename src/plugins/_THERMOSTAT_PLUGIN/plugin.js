@@ -35,12 +35,6 @@ function SubscribeToSpecifiedDomainObj(callback, specifiedKey) {
     });
 }
 
-function UpdateTelemetry(datum) {
-    currValues[datum.id] = datum.value;
-}
-
-var currValues = {};
-
 export default function ThermostatPlugin(options) {
     return function install(openmct) {
         openmct.types.addType('thermostat', {
@@ -51,6 +45,8 @@ export default function ThermostatPlugin(options) {
             initialize: function (domainObject) {
                 domainObject.label = 'Thermostat';
                 domainObject.target = 'temperature_set_point';
+                domainObject.tracking = 'temperature';
+                domainObject.step = 0.5;
             },
             form: [
                 {
@@ -61,6 +57,25 @@ export default function ThermostatPlugin(options) {
                         'target'
                     ],
                     "cssClass": "l-input-lg"
+                },
+                {
+                    "key": "tracking",
+                    "name": "Tracked Telemetry",
+                    "control": "textfield",
+                    property: [
+                        'tracking'
+                    ],
+                    "cssClass": "l-input-lg"
+                },
+                {
+                    "key": "step_size",
+                    "name": "Step Size",
+                    "control": 'numberfield',
+                    required: true,
+                    "cssClass": 'l-inline',
+                    property: [
+                        'step'
+                    ],
                 },
             ]
         });
@@ -81,11 +96,25 @@ export default function ThermostatPlugin(options) {
                         vm.$data.set_point = domainObject.setpoint;
                         vm.$data.internalDomainObj = domainObject;
                         container.appendChild(vm.$mount().$el);
-                        var formatted_data_id = ConvertToDataID(domainObject.target) + ".0";
+                        // Set up real-time updating of the set point
+                        var set_pt_data_id = ConvertToDataID(domainObject.target) + ".0";
                         SubscribeToSpecifiedDomainObj(function (datum) {
-                            if (!vm.$data.is_editing) {
+                            if (!vm.$data.is_editing && !vm.$data.is_updating) {
                                 vm.$data.set_point = datum.value;
-                            }}, formatted_data_id);
+                            }
+                            vm.$data.heat_cool_dir = Math.max(Math.min( datum.value - vm.$data.temp, 1), -1);
+                        }, set_pt_data_id);
+                        // Set up real-time updating of the tracked telemetry (temperature)
+                        var tracked_data_id = ConvertToDataID(domainObject.tracking) + ".0";
+                        SubscribeToSpecifiedDomainObj(function (datum) {
+                            vm.$data.temp = datum.value;
+                            if (domainObject.step < 1) {
+                                vm.$data.temp = Math.round(datum.value / domainObject.step) * domainObject.step;
+                            }
+                            else {
+                                vm.$data.temp = Math.round(datum.value);
+                            }
+                        }, tracked_data_id);
                     },
                     destroy: function (container) {
                         vm.$destroy();
