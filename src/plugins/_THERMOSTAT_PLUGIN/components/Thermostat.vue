@@ -10,9 +10,9 @@ export default {
       timeoutID: 0,
       set_point: 0,
       temp: 0,
-      heat_cool_dir: 0,  // Cool = -1, Heat = 1
+      mode: 0,  // Cool = -1, Off = 0, Heat = 1
       fan_speed: 0,
-      text_color: 'rgb(0, 255, 0)'
+      curr_width: 0,
     }
   },
   methods: {
@@ -29,14 +29,11 @@ export default {
         this.set_point -= this.internalDomainObj.step
         this.refreshEditTimeout()
     },
-    getColor() {
-      if (this.heat_cool_dir > 0) {
-        this.text_color = 'rgb(255,' + ((1 - this.heat_cool_dir) * 255) + ',' + ((1 - this.heat_cool_dir) * 255) + ')'; // HEATING
+    onUpdate() {
+      if (this.curr_width != this.internalDomainObj.bonus_width) {
+        document.documentElement.style.setProperty("--thermostat-bonus-width", this.internalDomainObj.bonus_width + "px")
+        this.curr_width = this.internalDomainObj.bonus_width
       }
-      else {
-        this.text_color = 'rgb(' + ((1 + this.heat_cool_dir) * 255) + ',' + ((1 + this.heat_cool_dir) * 255) + ',255)'; // COOLING
-      }
-      document.documentElement.style.setProperty('--temp-text-color', this.text_color);
     },
     refreshEditTimeout() {
       this.is_editing = true
@@ -60,14 +57,15 @@ export default {
     }
   },
   mounted() {
-    setInterval(this.getColor, 1000)
+    setInterval(this.onUpdate, 1000);
   }
 }
 </script>
 
 <template>
   <div class="thermostat">
-    <h1 class="temp">{{ temp }}</h1>
+    <h1 class="temp" v-if="this.internalDomainObj.step < 1">{{ Math.round(temp / parseFloat(this.internalDomainObj.step)) * parseFloat(this.internalDomainObj.step) }}</h1>
+    <h1 class="temp" v-else>{{ Math.round(temp) }}</h1>
     <div class="offset">
         <button class="arrow" @click="increment()">▲</button>
         <p class="center">{{ set_point }}</p>
@@ -75,6 +73,10 @@ export default {
         <div>
             <button class="ok" @click="send(set_point)">OK</button>
         </div>
+        <h2 class="units">°C</h2>
     </div>
+    <h2 class="mode_text" v-if="mode > 0">HEAT</h2>
+    <h2 class="mode_text" v-else-if="mode < 0">COOL</h2>
+    <h2 class="mode_text" v-else>OFF</h2>
   </div>
 </template>

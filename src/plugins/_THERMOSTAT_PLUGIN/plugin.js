@@ -47,6 +47,7 @@ export default function ThermostatPlugin(options) {
                 domainObject.target = 'temperature_set_point';
                 domainObject.tracking = 'temperature';
                 domainObject.step = 0.5;
+                domainObject.bonus_width = 0;
             },
             form: [
                 {
@@ -77,6 +78,16 @@ export default function ThermostatPlugin(options) {
                         'step'
                     ],
                 },
+                {
+                    "key": "bonus_width",
+                    "name": "Bonus Width",
+                    "control": 'numberfield',
+                    required: true,
+                    "cssClass": 'l-inline',
+                    property: [
+                        'bonus_width'
+                    ],
+                },
             ]
         });
 
@@ -97,23 +108,23 @@ export default function ThermostatPlugin(options) {
                         vm.$data.internalDomainObj = domainObject;
                         container.appendChild(vm.$mount().$el);
                         // Set up real-time updating of the set point
-                        var set_pt_data_id = ConvertToDataID(domainObject.target) + ".0";
+                        var set_pt_data_id = ConvertToDataID(domainObject.target + "_response") + ".0";
                         SubscribeToSpecifiedDomainObj(function (datum) {
                             if (!vm.$data.is_editing && !vm.$data.is_updating) {
                                 vm.$data.set_point = datum.value;
                             }
-                            vm.$data.heat_cool_dir = Math.max(Math.min( datum.value - vm.$data.temp, 1), -1);
+                            vm.$data.mode = Math.max(Math.min( datum.value - vm.$data.temp, 1), -1);
                         }, set_pt_data_id);
                         // Set up real-time updating of the tracked telemetry (temperature)
                         var tracked_data_id = ConvertToDataID(domainObject.tracking) + ".0";
                         SubscribeToSpecifiedDomainObj(function (datum) {
                             vm.$data.temp = datum.value;
-                            if (domainObject.step < 1) {
-                                vm.$data.temp = Math.round(datum.value / domainObject.step) * domainObject.step;
-                            }
-                            else {
-                                vm.$data.temp = Math.round(datum.value);
-                            }
+                            // if (domainObject.step < 1) {
+                            //     vm.$data.temp = Math.round(datum.value / domainObject.step) * domainObject.step;
+                            // }
+                            // else {
+                            //     vm.$data.temp = Math.round(datum.value);
+                            // }
                         }, tracked_data_id);
                     },
                     destroy: function (container) {

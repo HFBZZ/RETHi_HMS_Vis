@@ -5542,7 +5542,7 @@
         },
         {
             "name": "Communication_Network/Thermostats/Temperature_Set_Point",
-            "key": "10001.0",
+            "key": "10002.0",
             "values": [
                 {
                     "key": "value",
@@ -5568,7 +5568,7 @@
         },
         {
             "name": "Communication_Network/Thermostats/Pressure_Set_Point",
-            "key": "10002.0",
+            "key": "10004.0",
             "values": [
                 {
                     "key": "value",
