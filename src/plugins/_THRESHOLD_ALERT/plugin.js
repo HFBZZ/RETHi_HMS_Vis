@@ -1,4 +1,4 @@
-import Thermostat from './components/Thermostat.vue';
+import ThreshAlert from './components/ThreshAlert.vue';
 import Vue from 'vue';
 import ConvertToDataID from '../_MESSAGE_SENDER/NameDataIDConverter'
 
@@ -38,25 +38,22 @@ function SubscribeToSpecifiedDomainObj(callback, specifiedKey) {
     });
 }
 
-export default function ThermostatPlugin(options) {
+export default function ThreshAlertPlugin(options) {
     return function install(openmct) {
-        openmct.types.addType('thermostat', {
-            name: 'Thermostat Controller',
-            description: 'A mechanism for controlling temperature',
+        openmct.types.addType('threshAlert', {
+            name: 'Threshold Alert Widget',
+            description: 'A widget that pops up an alert when a threshold is crossed',
             creatable: true,
             cssClass: "icon-minus",
             initialize: function (domainObject) {
-                domainObject.label = 'Thermostat';
-                domainObject.target = 'temperature_set_point';
-                domainObject.tracking = 'temperature';
-                domainObject.step = 0.5;
-                domainObject.bonus_width = 0;
-                domainObject.units = "°C"
+                domainObject.target = 'temperature';
+                domainObject.threshold = 0;
+                domainObject.message = "ALERT: This is an alert!";
             },
             form: [
                 {
                     "key": "target",
-                    "name": "Target Telemetry",
+                    "name": "Target Threshold Telemetry",
                     "control": "textfield",
                     property: [
                         'target'
@@ -64,81 +61,51 @@ export default function ThermostatPlugin(options) {
                     "cssClass": "l-input-lg"
                 },
                 {
-                    "key": "tracking",
-                    "name": "Tracked Telemetry",
+                    "key": "threshold",
+                    "name": "Threshold Value",
+                    "control": 'numberfield',
+                    required: true,
+                    "cssClass": 'l-inline',
+                    property: [
+                        'threshold'
+                    ],
+                },
+                {
+                    "key": "alert",
+                    "name": "Alert Message",
                     "control": "textfield",
                     property: [
-                        'tracking'
+                        'message'
                     ],
                     "cssClass": "l-input-lg"
-                },
-                {
-                    "key": "step_size",
-                    "name": "Step Size",
-                    "control": 'numberfield',
-                    required: true,
-                    "cssClass": 'l-inline',
-                    property: [
-                        'step'
-                    ],
-                },
-                {
-                    "key": "bonus_width",
-                    "name": "Bonus Width",
-                    "control": 'numberfield',
-                    required: true,
-                    "cssClass": 'l-inline',
-                    property: [
-                        'bonus_width'
-                    ],
-                },
-                {
-                    "key": "units",
-                    "name": "Units",
-                    "control": "textfield",
-                    property: [
-                        'units'
-                    ],
-                    "cssClass": "l-input-sm"
                 },
             ]
         });
 
+        // openmct.objectViews.addProvider(new ButtonViewProvider(openmct));
+
         openmct.objectViews.addProvider({
             name: "demo-provider",
-            key: "thermostat",
+            key: "thresh-alert",
             cssClass: "icon-packet",
             canView: function (d) {
-                return d.type === 'thermostat';
+                return d.type === 'threshAlert';
             },
             view: function (domainObject) {
-                var vm;              
+                var vm;
 
                 return {
                     show: function (container) {
-                        vm = new Vue(Thermostat);
-                        vm.$data.set_point = domainObject.setpoint;
+                        vm = new Vue(ThreshAlert);
                         vm.$data.internalDomainObj = domainObject;
                         container.appendChild(vm.$mount().$el);
-                        // Set up real-time updating of the set point
-                        var set_pt_data_id = ConvertToDataID(domainObject.target + "_response") + ".0";
+                        // Tracking the target telemetry
+                        var set_pt_data_id = ConvertToDataID(domainObject.target) + ".0";
                         SubscribeToSpecifiedDomainObj(function (datum) {
-                            if (!vm.$data.is_editing && !vm.$data.is_updating) {
-                                vm.$data.set_point = datum.value;
+                            if (datum.value >= domainObject.threshold) {
+                                vm.$data.alertMsg = domainObject.message;
                             }
-                            vm.$data.mode = Math.max(Math.min( datum.value - vm.$data.temp, 1), -1);
                         }, set_pt_data_id);
-                        // Set up real-time updating of the tracked telemetry (temperature)
-                        var tracked_data_id = ConvertToDataID(domainObject.tracking) + ".0";
-                        SubscribeToSpecifiedDomainObj(function (datum) {
-                            vm.$data.temp = datum.value;
-                            if (Math.floor(domainObject.step) == domainObject.step) {
-                                vm.$data.decimal_places = 0;
-                            }
-                            else {
-                                vm.$data.decimal_places = domainObject.step.toString().split('.')[1].length || 0;
-                            }
-                        }, tracked_data_id);
                     },
                     destroy: function (container) {
                         vm.$destroy();

@@ -76,6 +76,7 @@ define([
     './_SWITCH_PLUGIN/plugin',
     './_EARTH_MARS_DELAY/plugin',
     './_THERMOSTAT_PLUGIN/plugin',
+    './_THRESHOLD_ALERT/plugin',
     './DeviceClassifier/plugin',
     './timer/plugin',
     './userIndicator/plugin',
@@ -138,6 +139,7 @@ define([
     Switch,
     DelayTracker,
     Thermostat,
+    ThresholdAlert,
     DeviceClassifier,
     Timer,
     UserIndicator,
@@ -221,6 +223,7 @@ define([
     plugins.Switch = Switch.default;
     plugins.DelayTracker = DelayTracker.default;
     plugins.Thermostat = Thermostat.default;
+    plugins.ThresholdAlert = ThresholdAlert.default;
 
     plugins.Timer = Timer.default;
     plugins.DeviceClassifier = DeviceClassifier.default;

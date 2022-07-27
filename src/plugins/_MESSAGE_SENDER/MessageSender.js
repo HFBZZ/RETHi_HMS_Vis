@@ -19,7 +19,6 @@ export default function SendMessage(msg, field_to_modify) {
         // AXIOS version
         console.log(parseFloat(msg));
         axios.post(httpAaddress, {
-            // data_type: 1,
             value: parseFloat(msg),
         })
         .then((response) => {

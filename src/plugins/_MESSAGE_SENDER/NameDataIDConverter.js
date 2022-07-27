@@ -1,3 +1,4 @@
+// A dictionary containing names paired with data ids
 const data_id_dict = {
     "temperature": "8003",
     "pressure": "8007",
