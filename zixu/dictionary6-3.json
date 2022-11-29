@@ -1,0 +1,734 @@
+{
+    "name": "DTS",
+    "key": "sc",
+    "measurements": [
+        {
+            "name": "ECLSS_Radiator_Dust",
+            "key": "10001.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Radiator_Damaged",
+            "key": "10002.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Fan",
+            "key": "10003.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Air_Tank",
+            "key": "10004.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Valve",
+            "key": "10005.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_P_PW_Consum",
+            "key": "10006.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Compressor",
+            "key": "10007.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Evaporator",
+            "key": "10008.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_Heater",
+            "key": "10009.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ECLSS_T_PW_Consum",
+            "key": "10010.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ST_Hole",
+            "key": "10050.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SPL_Hole",
+            "key": "10066.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "IE_Fire_Z1",
+            "key": "10067.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "IE_Fire_Z2",
+            "key": "10068.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "IE_Airlock",
+            "key": "10069.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_PV_Dust",
+            "key": "10074.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_PV_Damaged",
+            "key": "10075.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Nuclear_Dust",
+            "key": "10076.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Nuclear_Damaged",
+            "key": "10077.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Battery",
+            "key": "10078.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor1",
+            "key": "10079.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor2",
+            "key": "10080.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor3",
+            "key": "10081.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor4",
+            "key": "10082.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor5",
+            "key": "10083.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Convertor6",
+            "key": "10084.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Bus",
+            "key": "10085.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PW_Coolant_Leak",
+            "key": "10086.0",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "min": 0,
+                    "max": 1000,
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -2,7 +2,7 @@
  * Returns a Promise to retreive the dictionary of telemetry from the dictionary.json file.
  */
 function getDictionary() {
-    return http.get('http://localhost:8080/zixu/dictionary6-2.json')
+    return http.get('http://localhost:8080/zixu/dictionary6-3.json')
         .then(function (result) {
             return result.data;
         });
